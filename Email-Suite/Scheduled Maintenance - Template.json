@@ -1,0 +1,22 @@
+{
+  "Id": "maint-scheduled",
+  "Name": "Scheduled Maintenance",
+  "Group": "Maintenance",
+  "MsgFile": "Scheduled Maintenance - Template.msg",
+  "From": "InformationServices@pennstatehealth.psu.edu",
+  "To": ["IS Alerts"],
+  "Cc": [],
+  "Bcc": [],
+  "Subject": "Scheduled Maintenance - {{Title}} - {{DateLine}}",
+  "Requires": [
+    "Title",
+    "DateLine",
+    "Locations",
+    "Applications",
+    "Details",
+    "RequiredActions",
+    "Reference",
+    "Distribution"
+  ],
+  "Attachments": []
+}

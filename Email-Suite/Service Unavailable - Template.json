@@ -1,0 +1,22 @@
+{
+  "Id": "svc-unavailable",
+  "Name": "Service Unavailable",
+  "Group": "Service Alerts",
+  "MsgFile": "Service Unavailable - Template.msg",
+  "From": "IS_Alerts@pennstatehealth.psu.edu",
+  "To": ["IS Alerts"],
+  "Cc": [],
+  "Bcc": [],
+  "Subject": "Service Unavailable - {{Title}} - {{DateLine}}",
+  "Requires": [
+    "Title",
+    "DateLine",
+    "Locations",
+    "Applications",
+    "Details",
+    "RequiredActions",
+    "Reference",
+    "Distribution"
+  ],
+  "Attachments": []
+}

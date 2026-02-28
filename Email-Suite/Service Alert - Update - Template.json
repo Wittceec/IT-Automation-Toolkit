@@ -1,0 +1,22 @@
+{
+  "Id": "svc-update",
+  "Name": "Service Alert (Update)",
+  "Group": "Service Alerts",
+  "MsgFile": "Service Alert - Update - Template.msg",
+  "From": "IS_Alerts@pennstatehealth.psu.edu",
+  "To": ["IS Alerts"],
+  "Cc": [],
+  "Bcc": [],
+  "Subject": "Service Alert - Update - {{Title}} - {{DateLine}}",
+  "Requires": [
+    "Title",
+    "DateLine",
+    "Locations",
+    "Applications",
+    "Details",
+    "RequiredActions",
+    "Reference",
+    "Distribution"
+  ],
+  "Attachments": []
+}

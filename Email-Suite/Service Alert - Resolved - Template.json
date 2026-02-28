@@ -1,0 +1,22 @@
+{
+  "Id": "svc-resolved",
+  "Name": "Service Alert (Resolved)",
+  "Group": "Service Alerts",
+  "MsgFile": "Service Alert - Resolved - Template.msg",
+  "From": "IS_Alerts@pennstatehealth.psu.edu",
+  "To": ["IS Alerts"],
+  "Cc": [],
+  "Bcc": [],
+  "Subject": "Service Alert - Resolved - {{Title}} - {{DateLine}}",
+  "Requires": [
+    "Title",
+    "DateLine",
+    "Locations",
+    "Applications",
+    "Details",
+    "RequiredActions",
+    "Reference",
+    "Distribution"
+  ],
+  "Attachments": []
+}

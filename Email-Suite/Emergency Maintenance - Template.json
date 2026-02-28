@@ -1,0 +1,22 @@
+{
+  "Id": "maint-emergency",
+  "Name": "Emergency Maintenance",
+  "Group": "Maintenance",
+  "MsgFile": "Emergency Maintenance - Template.msg",
+  "From": "InformationServices@pennstatehealth.psu.edu",
+  "To": ["IS Alerts"],
+  "Cc": [],
+  "Bcc": [],
+  "Subject": "Emergency Maintenance - {{Title}} - {{DateLine}}",
+  "Requires": [
+    "Title",
+    "DateLine",
+    "Locations",
+    "Applications",
+    "Details",
+    "RequiredActions",
+    "Reference",
+    "Distribution"
+  ],
+  "Attachments": []
+}
